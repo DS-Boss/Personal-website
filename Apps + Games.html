@@ -1,22 +1,51 @@
 <!Doctype html>
 <html>
+
 <head>
     <title>Apps And Games</title>
     <link href="appsStylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
 
-    <h1 id="title">Apps and Games</h1>
-    <section id="apps">
-        <h2>Apps</h2>
-        <span><iframe width="500" height="900" style="border: 0px;" src="https://studio.code.org/projects/applab/NQkP1tm-hSKSGItB4tzjowtKC85v7mZwy1NPVDFfXjI/embed"></iframe></span>
-        <span><iframe width="500" height="900" style="border: 0px;" src="https://studio.code.org/projects/applab/YPNqTkUvSdqx3PUOS-LrwEOYQkSr-8qrzU4EYKtzbNs/embed"></iframe></span>
-    </section>
 
-    <section id="games">
-        <h2>Games</h2>
-        <a href="https://x.thunkable.com/copy/395ca4ccbbbbb2c9b8ae9b7fc0757e44"><img src="1200px-Tic_tac_toe.png" height="500px" width="500px"></a>
-    </section>
+        <h1 id="title">Apps and Games</h1>
+        <section id="apps">
+            <h2>Apps</h2>
+            <span><iframe width="500" height="900" style="border: 0px;" src="https://studio.code.org/projects/applab/NQkP1tm-hSKSGItB4tzjowtKC85v7mZwy1NPVDFfXjI/embed"></iframe></span>
+            <span><iframe width="500" height="900" style="border: 0px;" src="https://studio.code.org/projects/applab/YPNqTkUvSdqx3PUOS-LrwEOYQkSr-8qrzU4EYKtzbNs/embed"></iframe></span>
+        </section>
 
+
+        <h2>Here are some More Games For You To See</h2>
+        <div id="divGames" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://x.thunkable.com/copy/395ca4ccbbbbb2c9b8ae9b7fc0757e44"><img src="1200px-Tic_tac_toe.png" height="500px" width="500px"></a>
+                        <div class="carousel-container">
+                            <h3>Noughts and Crosses</h3>
+                        </div>
+                    </center>
+
+
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://x.thunkable.com/copy/050ff68eef4329c03dddd1099b9c5728"><img src="7a87b7ebb52d02c258a5888b1de9eb23.jpg" height="700px" width="500px"></a>
+                        <div class="carousel-container">
+                            <h3>A Browser App</h3>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#divGames" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span> </a>
+  <a class="right carousel-control" href="#divGames" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+        </div>
+    </div>
 </body></html>

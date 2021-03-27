@@ -34,3 +34,13 @@ img:hover {
     width: 70px;
     margin: 8px auto;
 }
+h3 {
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+
+
+}
+#divGames{
+    background-color:darkgray;
+}
